@@ -22,6 +22,7 @@ align-items: center;
 justify-content: space-between;
 width: 100%;
 padding: 40px;
+list-style: none;
 
 }
 
@@ -42,11 +43,20 @@ nav ul li{
 a {
 color: white;
 text-decoration: none;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-right: 120px;
+padding-right: 0px;
+font-size: 16px;
 
 
-}.logo{font-size: 30px;
+
+} 
+
+.logo { font-size: 23px;
 padding: 60px;
-color: rgba(255, 255, 255, 0.432);
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 160px;
 
 }
 
@@ -55,16 +65,62 @@ color: rgba(255, 255, 255, 0.432);
 
  
 
-#good { width: 50%;
-   height: 30%;
+#good {
+   
+   width: 60%;
+   height: 40%;
    background-color: #FFF;
-position: absolute;
-top: 80%;
-left: 50%;
-padding-top: 80px;
-transform: translateX(-50%);
-border-radius: 25px;
-box-shadow: 0 0   9px rgb(75, 94, 99);
- }
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   padding-top: 80px;
+   transform: translateX(-50%);
+   border-radius: 25px;
+   box-shadow: 0 0 50px #14bbc440;
+   padding: 2%;
+   padding-top: 1%;
+ 
+}
 
+ 
+ h1 {
+
+   color:#044ac4d1;
+   font-family:Poppins, googleapis;
+   font-size: 70px;   
+
+}
+
+h2 {
+
+   font-family:"Poppins" ;
+   font-size: 28px;
+   /* font -weight sert a changer la couleure de la polices */
+   font-weight: 400;
+}
+
+.navigation {
+
+border:1px solid rgba(192, 192, 192, 0.877) ;
+padding: 3%;
+border-radius: 30px;
+margin: 4%;
+height: 110px;
+display: flex;
+align-items: center;
+padding: 20px;
+margin: 30px;
+}
+
+.icone {
+
+height: 70px;
+width: 25%;
+border-right:2px solid silver;
+margin: 0px;
+display: flex;
+align-items: center;
+
+
+}
 
