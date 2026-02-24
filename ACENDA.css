@@ -85,7 +85,7 @@ padding-left: 160px;
  
  h1 {
 
-   color:#044ac4d1;
+   color:#048ec4d1;
    font-family:Poppins, googleapis;
    font-size: 70px;   
 
@@ -103,16 +103,17 @@ h2 {
 
 border:1px solid rgba(192, 192, 192, 0.877) ;
 padding: 3%;
-border-radius: 30px;
+border-radius: 60px;
 margin: 4%;
 height: 110px;
 display: flex;
 align-items: center;
 padding: 20px;
 margin: 30px;
+justify-content: space-around;
 }
 
-.icone {
+.icone1 {
 
 height: 70px;
 width: 25%;
@@ -123,4 +124,78 @@ align-items: center;
 
 
 }
+
+.icone2 {
+
+height: 70px;
+width: 25%;
+border-right:2px solid silver;
+margin: 0px;
+display: flex;
+align-items: center;
+
+
+}
+
+.icone3 {
+
+height: 70px;
+width: 25%;
+border-right:2px solid silver;
+margin: 0px;
+display: flex;
+align-items: center;
+
+
+}
+
+.icone4 {
+
+height: 70px;
+width: 15%;
+border-right:2px solid silver;
+margin: 0px;
+display: flex;
+align-items: center;
+border-right: none;
+
+}
+
+.icone5 {
+
+background-color: #048ec4d1;
+height: 20px;
+width: 2%;
+border-radius: 80px;
+
+}
+
+/* id des icones du dernier vers le premier */
+#recherche {
+font-size: 17px;
+}
+
+#Contact {
+margin: 10px;
+color:  rgb(154, 152, 152);;
+
+}
+
+#dateout {
+margin: 10px;
+color:  rgb(154, 152, 152);;
+}
+
+#datein {
+margin: 10px;
+color: rgb(154, 152, 152);
+
+}
+
+#localisation {
+margin: 10px;
+color: rgb(154, 152, 152);
+}
+
+/* le main  et la premier section */
 
